@@ -1,4 +1,7 @@
 const _ = require("lodash");
+const dotenv = require("dotenv");
+
+dotenv.config();
 
 const users = [
   { id: 1, username: "john" },
@@ -8,6 +11,8 @@ const users = [
   { id: 5, username: "jin" },
 ];
 
-const adminId = 2;
+// const adminId = 3;
 
-console.log(_.find(users, { id: adminId }));
+console.log(process.env);
+
+console.log(_.find(users, { id: +process.env.ADMIN_ID }));
