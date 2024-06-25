@@ -1,8 +1,8 @@
 {
-  "description": "test commander",
-  "name": "noderun",
-  "version": "1.0.0",
-  "main": "index.js",
+  "description": "simple-calc",
+  "name": "hcode.16-simple-calc",
+  "version": "1.0.1",
+  "bin": "index.js",
   "scripts": {
     "test": "index.js"
   },
