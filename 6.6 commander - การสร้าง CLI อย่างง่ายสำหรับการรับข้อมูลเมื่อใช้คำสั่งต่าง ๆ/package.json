@@ -1,0 +1,14 @@
+{
+  "description": "test commander",
+  "name": "noderun",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "index.js"
+  },
+  "author": "HCode-16",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^12.1.0"
+  }
+}
