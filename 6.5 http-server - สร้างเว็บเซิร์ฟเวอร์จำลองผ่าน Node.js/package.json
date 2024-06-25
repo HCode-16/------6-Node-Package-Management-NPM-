@@ -1,0 +1,15 @@
+{
+  "description": "test 6.5",
+  "name": "my-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "index.js"
+  },
+  "keywords": [
+    "test",
+    "6.5"
+  ],
+  "author": "H-dev16",
+  "license": "ISC"
+}
