@@ -1,0 +1,16 @@
+{
+  "name": "h-code16-glob",
+  "version": "1.0.0",
+  "description": "learn glob",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "h-code16-glob",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "glob": "^10.4.2",
+    "util": "^0.12.5"
+  }
+}
